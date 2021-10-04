@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+
+    /* 編寫一個 function，可以判斷傳入的數字是不是偶數，
+    是的話回傳 true，不是則回傳 false */
+    function isEven(num) {
+      if (num % 2 === 0) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    const even = isEven(parseInt(prompt('請輸入數字')))
+    if (even) alert('是')
+    else alert('不是')
+
+    
+  </script>
+</body>
+</html>
